@@ -19,8 +19,8 @@ NOTE!!!  This build is for advanced users only because a Windows Insider Preview
 	10) Enter sudo apt update && sudo apt full-upgrade && sudo apt install cpu-checker && sudo apt install acl
 	11) Enter sudo kvm-ok
 		a. You should see the following:      INFO: /dev/kvm exists. KVM acceleration can be used.
-	12)  If you get a message that /dev/kvm does not exist, enter the following commands:
+	12)  If you get a message that /dev/kvm does not exist, or if you get an access denied to KVM, enter the following commands:
 		a.  curl -o setup-kvm.sh https://join.golem.network/setup-kvm.sh 
 		b.  sudo chmod +x ./setup-kvm.sh 
 		c.  ./setup-kvm.sh
-	13) Download the Golem Provider installation script at https://github.com/r34x/Automatic-Golem to setup your Golem Provider.
+	13) Run the Golem Provider installation script to setup your Golem Provider.
