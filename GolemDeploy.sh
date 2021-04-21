@@ -2,6 +2,7 @@
     #Author: R4X
     #Date: 29 March 2021
     #Version: 0.1
+sudo chmod -x golemsp.service
 read -p "Welcome to the Golem Provider installer! This program will automatically download the provider and start it for you plus give you the option to do some other useful things. Press ENTER when you're ready to start."
 echo "Do you want to update your system before installing the Golem Provider?"
  select yn in "Yes" "No"; do
